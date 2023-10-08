@@ -17,12 +17,9 @@ public class EmployeeController {
 
     @Autowired
     private final EmployeeService employeeService;
-
-
     public EmployeeController(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }
-
     @PostMapping("/employees")
     public Employee createEmployee(@RequestBody Employee employee){
 
