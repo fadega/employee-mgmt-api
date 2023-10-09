@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//allow this url
+//allow this url - from ui->react
 //@CrossOrigin(origins = "http://locahost:3000")
 //allow everything
 @CrossOrigin(origins = "*", allowedHeaders = "*")
